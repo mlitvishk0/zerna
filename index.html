@@ -85,15 +85,17 @@
     display:flex;
     align-items:center;
     justify-content:space-between;
+    gap:24px;
     padding:24px 0;
   }
   .logo{
     font-family:var(--font-display);
-    font-size:22px;
+    font-size:26px;
     font-weight:700;
     letter-spacing:0.5px;
+    flex-shrink:0;
   }
-  .nav-links{display:flex;gap:32px;font-size:15px;font-weight:500;}
+  .nav-links{display:flex;gap:32px;font-size:15px;font-weight:500;flex-shrink:0;}
   .nav-links a{opacity:0.9;transition:opacity .15s;}
   .nav-links a:hover{opacity:1;}
   .hero-body{
